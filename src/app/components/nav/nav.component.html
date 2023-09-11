@@ -1,0 +1,14 @@
+<ul ngbNav #nav="ngbNav" class="nav-pills">
+  <div class="container">
+    <a class="nav-link" href="http://localhost:4200">PickAColor</a>
+    <li ngbNavItem>
+      <button ngbNavLink>First</button>
+      <ng-template ngbNavContent>First content</ng-template>
+    </li>
+    <li ngbNavItem>
+      <button ngbNavLink>Second</button>
+      <ng-template ngbNavContent>Second content</ng-template>
+    </li>
+  </div>
+</ul>
+<div [ngbNavOutlet]="nav"></div>
