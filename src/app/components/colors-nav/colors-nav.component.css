@@ -1,0 +1,12 @@
+.nav-container {
+    position: fixed;
+    width: max-content;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 2rem;
+    background-color: lightgray;
+    padding: 5px;
+    display: flex;
+    border: none;
+    border-radius: 5px;
+}

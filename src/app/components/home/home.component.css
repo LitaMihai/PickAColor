@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    scroll-padding-top: 3em;
+}
+.home-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 6em;
+    gap: 3em;
+}
+.home-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3em;
+    width: 50%;
+}
+.home-text h1 {
+    font-size: 48px;
+    letter-spacing: -1px;
+    font-weight: 700;
+    margin: 0;
+}
+.home-text p {
+    font-size: 24px;
+    line-height: 150%;
+    letter-spacing: normal;
+}
+.home-img {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+svg {
+    max-width: 100%;
+}

@@ -1,0 +1,4 @@
+Done
+    - randomize button
+    - sync background color
+    - change colors nav

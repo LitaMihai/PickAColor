@@ -1,14 +1,11 @@
-<ul ngbNav #nav="ngbNav" class="nav-pills">
-  <div class="container">
-    <a class="nav-link" href="http://localhost:4200">PickAColor</a>
-    <li ngbNavItem>
-      <button ngbNavLink>First</button>
-      <ng-template ngbNavContent>First content</ng-template>
-    </li>
-    <li ngbNavItem>
-      <button ngbNavLink>Second</button>
-      <ng-template ngbNavContent>Second content</ng-template>
-    </li>
-  </div>
-</ul>
-<div [ngbNavOutlet]="nav"></div>
+<nav>
+    <div class="logo">
+        <a href="#" class="colored-text">Pick A Color</a>
+    </div>
+    <div class="menu">
+        <a href="#" class="colored-text">Home</a>
+        <a href="#" class="colored-text">About</a>
+        <a href="#" class="colored-text">Services</a>
+        <a href="#" class="colored-text">Contact</a>
+    </div>  
+</nav>
